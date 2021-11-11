@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.register__container {
+  display: flex;
+ justify-content: center;
+ align-items: center; 
+ max-width: 1500px;
+ height: 100vh;
+}
+
+.register__content {
+ display: flex;
+ justify-content: center;
+ box-shadow: 3px 6px 10px rgba(0,0,0,0.3);
+}
+
+
+
+.register__background  img{ 
+ width: auto;
+ height: 100%;
+ object-fit: cover;
+}
+
+.register__form { 
+ padding: 50px;
+}
+
+.register__form-head { 
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom:  40px ;
+}
+
+.register__form-head  > img{
+ width: auto;
+ height: 50px;
+ cursor: pointer;
+ object-fit: cover;
+}
+
+
+
+.register__form-logo > button{ 
+ outline: none;
+ background: none;
+ border: none;
+ cursor: pointer;
+}
+
+.register__form-logo > button > svg { 
+ animation: all ease-in-out 600ms;
+}
+
+.register__form-logo > button > svg:hover{ 
+ fill:#fa8c16 ;
+} 
+
+.register__form-field { 
+ position: relative;
+ margin: 0px 0px 25px 0px;
+}
+
+.text-warning {
+ position: absolute;
+ color:#f5222d;
+ bottom: -20px;
+ right: 0px;
+}
+
+
+.register__form-field > label {
+ display: block;
+ color: #000;
+ margin: 0px 0px 8px;
+ text-transform: uppercase;
+ font-size: 12px;
+ letter-spacing: 1px;
+ font-weight: 550;
+}
+
+.register__form-field > input {
+ padding: 6px 12px;
+ border: 1px solid rgb(212, 168, 140);
+ height: 48px;
+ outline: none;
+ border-radius: 5px;
+ color:#000;
+ font-size: 16px;
+ width: 272px;
+ box-shadow: none;
+}
+
+.register__form-button button  { 
+ height: 55px;
+ border-radius: 10px;
+ width: 100%;
+ background: rgb(17, 17, 17);
+ color:white;
+ font-weight: 550;
+ outline: none;
+ border: 1px solid rgb(17, 17, 17);
+ text-transform: uppercase;
+ letter-spacing: 4px;
+ animation: all ease-in-out 600ms;
+ box-shadow: 3px 6px 10px rgba(0,0,0,0.1);
+
+}
+
+.register__form-button button:hover {
+ border: 1px solid #fa8c16;
+ background: #FFF;
+ color:#fa8c16 ;
+}
+
+
+
+
+.register__form-singup {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 20px ;
+}
+
+.register__form-singup > p {
+ margin:0px;
+ font-size: 17px;
+ font-weight: 500;
+ color: rgb(17, 17, 17);
+
+}
+
+.register__form-singup > p:first-child { 
+  margin-right: 9px !important;
+  color:#808080;
+}

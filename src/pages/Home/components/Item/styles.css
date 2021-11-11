@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    margin:0px;
+    padding:0px;
+}
+
+.home__menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.home__menu-item-button > button { 
+    margin:0px 7px;
+    border:  1px solid rgb(17, 17, 17);
+    outline: none;
+    font-weight: 550;
+    font-size: 16px;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    animation: all ease-in-out 500ms;
+}
+
+.home__menu-item-button > button:hover {
+    border: 1px solid #fa8c16;
+    color: rgb(17, 17, 17);
+}

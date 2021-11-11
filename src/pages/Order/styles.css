@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+    margin:0px;
+    padding:0px;
+}
+
+
+.order__container {
+    margin: 30px auto;
+    max-width:1400px;
+}
+
+table  {
+    margin: auto;
+    border: 2px solid #e7e7e7;
+    outline: none;
+    width: 70%;
+}
+
+thead { 
+    border-bottom: 2px solid #e7e7e7;
+}
+
+thead > tr { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+
+tbody > tr  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 70px;
+}
